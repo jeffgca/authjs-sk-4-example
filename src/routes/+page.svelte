@@ -1,3 +1,6 @@
+<script>
+</script>
+
 <main>
   <h1>SvelteKit Auth Example</h1>
   <p>

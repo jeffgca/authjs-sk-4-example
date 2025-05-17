@@ -6,7 +6,7 @@ import { Pool } from '@neondatabase/serverless'
 
 export const { handle, signIn, signOut } = SvelteKitAuth(() => {
 	// Create a `Pool` inside the request handler.
-	const pool = new Pool({ connectionString: process.env.DATABASE_URL })
+	const pool = new Pool({ connectionString: env.DATABASE_URL })
 	return {
 		adapter: NeonAdapter(pool),
 		providers: [Discord],

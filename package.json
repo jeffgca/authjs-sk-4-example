@@ -24,7 +24,9 @@
     "vite": "^6.2.6"
   },
   "dependencies": {
+    "@auth/neon-adapter": "^1.9.1",
     "@auth/sveltekit": "latest",
+    "@neondatabase/serverless": "^1.0.0",
     "@tailwindcss/vite": "^4.1.7",
     "tailwindcss": "^4.1.7"
   },
